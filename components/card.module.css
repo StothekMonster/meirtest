@@ -1,0 +1,123 @@
+.cardLink {
+	margin: auto;
+	border-bottom: 1px solid #ccc;
+}
+
+.container {
+	padding-top: 0.25rem;
+	padding-bottom: 1.25rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.cardHeaderWrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+}
+
+.image {
+	width: 15%;
+}
+
+.currency {
+	padding-right: 10px;
+}
+
+.saleDetails {
+	display: flex;
+	color: #ccc;
+	font-size: 14px;
+}
+
+.date {
+	padding-left: 10px;
+}
+.salesAgent {
+	display: flex;
+	align-items: center;
+}
+
+.title {
+	font-size: 16px;
+}
+
+.titleProgress {
+	display: flex;
+	justify-content: space-between;
+}
+
+.salesIcon {
+	margin-right: 10px;
+	align-self: flex-start; /* Adjust alignment of the icon */
+}
+
+.salesName {
+	color: rgb(9, 8, 52);
+	font-size: 14px;
+	margin: 0;
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+	padding-left: 15px;
+	flex: 1; /* Add flex property to fill up remaining space */
+}
+
+.status {
+	font-size: 14px;
+	color: white;
+	padding: 2px 5px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+
+.RED {
+	background-color: red;
+}
+.ORANGE {
+	background-color: orange;
+}
+.PURPLE {
+	background-color: purple;
+}
+.GREEN {
+	background-color: green;
+}
+
+.cardHeader {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 1.25rem /* 20px */;
+	line-height: 1.75rem /* 28px */;
+	font-weight: 800;
+	overflow: hidden;
+	width: 16rem /* 256px */;
+}
+
+.cardImageWrapper {
+	color: var(--text-white-100);
+}
+
+.cardImage {
+	border-radius: 0.75rem /* 12px */;
+}
+
+@media (min-width: 1024px) {
+	.cardHeader {
+		width: 16rem /* 256px */;
+	}
+}
+
+@media (min-width: 768px) {
+	.cardHeader {
+		width: 16rem /* 256px */;
+	}
+}
